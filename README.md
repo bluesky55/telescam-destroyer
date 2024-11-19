@@ -13,4 +13,4 @@ Clone repository ini, lalu jalankan command `npm i`.
 - Counter attack (sp4m) API telegram
 - Bikin list API telegram yang mau dijadikan target dalam file `url.txt`
 - Ketik Pesan (support UTF-8 / ZalgoTextGenerator Tested 69%) ke dalam file `say.txt`
-- Send request ke multiple API secara bersamaan.
+- Send `GET` request ke multiple API secara bersamaan.
