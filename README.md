@@ -2,9 +2,11 @@
 
 Clone repository ini, lalu jalankan command `npm install`.
 
-# Execution
+# Execute
 
 Jalankan program dengan command node `app.js`
+Jalankan 8 program sekaligus dengan command `.\run.bat`
+Jalankan 16 program sekaligus dengan command `.\start.bat`
 
 # Fitur
 
