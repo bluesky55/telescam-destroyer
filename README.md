@@ -1,6 +1,6 @@
 # Instalasi
 
-Clone repository ini, lalu jalankan command `npm install`.
+Clone repository ini, lalu jalankan command `npm i`.
 
 # Execute
 
