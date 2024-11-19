@@ -2,7 +2,7 @@ const fs = require('fs');
 const axios = require('axios');
 
 let totalMessagesSent = 0;
-let cooldown = 0;
+// let cooldown = 0;
 async function sendMessages(urls, customText) {
   try {
     console.log(`[-(*)-]Sending: "say.txt" - Total Message Sent(${totalMessagesSent})`);
