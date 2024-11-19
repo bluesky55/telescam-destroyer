@@ -47,7 +47,7 @@ async function main() {
     .readFileSync('say.txt', 'utf8')
     .trim()
     .split('\n');; // Custom text
-    const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+    // const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
     while (true) {
       await sendMessages(urls, customText);
     }
