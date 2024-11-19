@@ -19,7 +19,7 @@ async function sendMessages(urls, customText) {
         .catch((error) => {
           // console.log(error)
           if (error.response.data.parameters.retry_after) {
-            cooldown = parseInt(error.response.data.parameters.retry_after) * 1000;
+            // cooldown = parseInt(error.response.data.parameters.retry_after) * 1000;
             return `[-(x)-]Link ${index + 1}: API Cooldown!: ${error.response.data.parameters.retry_after}`;
           }else{
             return `[-(x)-]Link ${index + 1}: API down!: ${error.response.data.status}`;
@@ -31,7 +31,7 @@ async function sendMessages(urls, customText) {
       console.log(result.value);
     });
     totalMessagesSent++;
-    console.log('+' + '='.repeat(30) + '+');    
+    console.log('+' + '='.repeat(50) + '+');    
   } catch (error) {
     console.error('[ x ]Error:', error.message);
   }
